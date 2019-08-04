@@ -1,1 +1,0 @@
-# eulerques1
