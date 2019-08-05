@@ -3,7 +3,7 @@
 void main()
 {
   int a=0,b=1,c=0,sum=0,i,n;
-  cout<<"enter the number to be inputed";
+  cout<<"enter the number to be inputed'\n' ";
   cin>>n;
   for(i=0;i<n;i++)
   {
