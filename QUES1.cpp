@@ -9,8 +9,7 @@ for(i=0;i<n;i++)
 {
 if(n%3==0 || n%5==0 )
 {
-cout<<n<<" ";
-  c=c+n;
+  c=c+i;
 }
 }
   cout<<"the sum of all the multiples of 3 and 5 are = "<< c;
