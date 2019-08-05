@@ -13,4 +13,6 @@ void main()
     if(c%2==0)
       sum=sum+c;
   }
+  cout<<sum;
 }
+
