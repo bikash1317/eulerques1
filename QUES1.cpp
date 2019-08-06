@@ -4,8 +4,7 @@ void main ()
 {
 int n,i=0,c=0;
 cout<< "enter any positive integer number '\n'";
-cin>>n;
-for(i=0;i<n;i++)
+for(i=0;i<1000;i++)
 {
 if(i%3==0 || i%5==0 )
 {
