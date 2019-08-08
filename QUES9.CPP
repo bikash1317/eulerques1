@@ -2,15 +2,17 @@
 #include<conio.h>
 void main()
 {
-int i,b,c,a,j;
-for(i=1;i<=1000;i++)
+int i,c=0,j;
+for(i=1;i<1000;i++)
 {
-for(j=1;j<=1000;j++)
+for(j=i+1;j<1000;j++)
 {
-c=1000-(b+a);
-if((c*c)==(b*b)+(a*a))
+c=1000-i-j;
+if((c*c)==(i*i)+(j*j))
+{
+  cout<<(i*j*c);
 break;
 }
-cout<<a*b*c;
+}
 }
 }
