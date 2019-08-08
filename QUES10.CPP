@@ -9,18 +9,17 @@ Find the sum of all the primes below two million.
 void main()
 {
 int i , j;
-long c=0, sum=2;
-for(i=3;i<10;i=i+2)
+long c=0, sum=0;
+for(i=0;i<10;i++)
 {
-for(j=3;j<=i/2;j=j+2)
+for(j=0;j<=i;j++)
 {
 c=0;
 if(i%j==0)
 {
-c=1;
-break;
+c=c+1;
 }
-if(c==0)
+if(c==2)
 {
 sum=sum+i;
 }
