@@ -6,22 +6,39 @@ What is the 10 001st prime number?
 */
 #include<iostream.h>
 #include<conio.h>
-void main()
+
+int prime[100000]={0};
+
+
+bool prime(int n )
 {
-int i, c,p;
-int n=1;
-while(true)
-{
-for(i=0;i<n; i++)
+int i , cnt=1;
+for (i=1;i<n;i++)
 {
 if(n%i==0)
-c=c+1;
+{
+cnt = cnt + 1 ;
 }
-if(c==2)
-p=p+1;
-if (p==10001)
-break; 
-n=n+1;
 }
-cout<<n;
+if(cnt == 2)
+{ 
+return(true);
 }
+}
+ void main()
+{
+
+int i=2,m=0;
+while(m<=6)
+{
+if (prime(i))
+{
+m=m+1;
+if (m==6)
+{
+cout<<i;
+}
+}
+i=i+1;
+}
+ }
