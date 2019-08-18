@@ -28,7 +28,7 @@ void main()
 {
 
 int cnt=0,r;
-int a=1,b=1,c=0,t=3;
+int a=1,b=1,c=0,t=2;
 while(cnt<3)
 {
 
