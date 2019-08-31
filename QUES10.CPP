@@ -26,4 +26,5 @@ sum=sum+i;
 }
 }
 cout<<sum;
+  
 }
